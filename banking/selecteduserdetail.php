@@ -86,19 +86,21 @@ if(isset($_POST['submit']))
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Transaction</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" type="text/css" href="/css/table.css">
-    <link rel="stylesheet" type="text/css" href="css/navbar.css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
 
     <style type="text/css">
     	
 		button{
 			border:none;
-			background: #d9d9d9;
+			background: #ae0a13;
+            color: white;
 		}
 	    button:hover{
-			background-color:#777E8B;
-			transform: scale(1.1);
-			color:white;
+			background-color:transparent;
+            border: 2px solid #ae0a13;
+			color:#ae0a13;
 		}
 
     </style>

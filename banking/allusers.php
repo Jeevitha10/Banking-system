@@ -5,9 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Banking system</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <link rel="stylesheet" type="text/css" href="css/table.css">
-
+    <link rel="stylesheet" type="text/css" href="/css/table.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
@@ -22,7 +21,7 @@
 ?>
 
 <div class="container">
-        <h2 class="text-center pt-4">Transfer Money</h2>
+        <h2 class="text-center pt-4">All user details</h2>
         <br>
             <div class="row">
                 <div class="col">
@@ -34,7 +33,6 @@
                             <th scope="col" class="text-center py-2">Name</th>
                             <th scope="col" class="text-center py-2">E-Mail</th>
                             <th scope="col" class="text-center py-2">Balance</th>
-                            <th scope="col" class="text-center py-2">Operation</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -46,7 +44,6 @@
                         <td class="py-2"><?php echo $rows['name']?></td>
                         <td class="py-2"><?php echo $rows['email']?></td>
                         <td class="py-2"><?php echo $rows['balance']?></td>
-                        <td><a href="selecteduserdetail.php?id= <?php echo $rows['id'] ;?>"> <button type="button" class="btn">Transact</button></a></td> 
                     </tr>
                 <?php
                     }

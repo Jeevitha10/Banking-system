@@ -2,47 +2,28 @@
       <!DOCTYPE html>
       <html>
       <head>
-       
-        <style type="text/css">
-
-        body{margin-top: 15px;
-        }
-       
-          .btn {
-                  border: 2px solid black;
-                  color: black;
-                  padding: 14px 28px;
-                  font-size: 16px;
-                  cursor: pointer;
-                  margin: 5px;
-                }
-            
-            .df:hover {
-        color: white;
-        font-size: 16px;
-    background-color: #9dc5c3;
-}
-
-        </style>
+        <!-- font awesome -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+       <link rel="stylesheet" href="css/styles.css">
       </head>
       <body>
       
-      <nav  class="navbar navbar-expand-md navbar-light">
-      <a class="navbar-brand" href="index.php"><i class="fas fa-money-check"></i></a>
-      
-      <div class="collapse navbar-collapse" id="collapsibleNavbar">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                <a class="btn df" class="nav-link" href="index.php">Home</a>
-              </li>
-              
-              <li class="nav-item">
-                <a class="btn df" class="nav-link" href="aboutme.php">About Me</a>
-              </li>
-              <li class="nav-item">
-                <a class="btn df" class="nav-link" href="contact.php">Contact Me</a>
-              </li>
-          </div>
-       </nav>
+      <nav class="nav">
+        <a class="nav__brand" href="index.php"><span class="fas fa-money-check"></span></a>
+
+        <div class="nav__links">
+            <ul class="nav__items">
+                <li class="nav__item">
+                    <a class="nav__link" href="index.php">Home</a>
+                </li>
+
+                <li class="nav__item">
+                    <a class="nav__link" href="aboutme.php">About Me</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link" href="contact.php">Contact Me</a>
+                </li>
+        </div>
+    </nav>
      </body>
      </html>
