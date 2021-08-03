@@ -21,4 +21,6 @@ Database contains two Tables
 
 The apache server was set to run on port 8080 of localhost. and mysql was set on port 3306.
 
-The data base credentials can be seen in _config.php_
+The data base credentials can be seen in _config.php_.
+
+Hosted on Infinity Free - <http://banksys.infinityfreeapp.com>
